@@ -1,0 +1,12 @@
+install.packages()
+
+CRAN
+//tidyverse
+instal.package("tidyverse")
+
+Bioconductor
+//separate importer
+if (!requireNamespace("BiocManager", quietly = TRUE))
+install.packages("BiocManager", version = '3.10')
+//GenomicRanges
+BiocManager::install("GenomicRanges")
